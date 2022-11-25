@@ -35,6 +35,10 @@
             this.alterarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deletarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroFuncionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inserirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.deletarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,9 +91,38 @@
             // 
             // cadastroFuncionáriosToolStripMenuItem
             // 
+            this.cadastroFuncionáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inserirToolStripMenuItem1,
+            this.consultarToolStripMenuItem1,
+            this.alterarToolStripMenuItem1,
+            this.deletarToolStripMenuItem1});
             this.cadastroFuncionáriosToolStripMenuItem.Name = "cadastroFuncionáriosToolStripMenuItem";
             this.cadastroFuncionáriosToolStripMenuItem.Size = new System.Drawing.Size(169, 24);
             this.cadastroFuncionáriosToolStripMenuItem.Text = "Cadastro Funcionários";
+            // 
+            // inserirToolStripMenuItem1
+            // 
+            this.inserirToolStripMenuItem1.Name = "inserirToolStripMenuItem1";
+            this.inserirToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.inserirToolStripMenuItem1.Text = "Inserir";
+            // 
+            // consultarToolStripMenuItem1
+            // 
+            this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
+            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.consultarToolStripMenuItem1.Text = "Consultar";
+            // 
+            // alterarToolStripMenuItem1
+            // 
+            this.alterarToolStripMenuItem1.Name = "alterarToolStripMenuItem1";
+            this.alterarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.alterarToolStripMenuItem1.Text = "Alterar";
+            // 
+            // deletarToolStripMenuItem1
+            // 
+            this.deletarToolStripMenuItem1.Name = "deletarToolStripMenuItem1";
+            this.deletarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.deletarToolStripMenuItem1.Text = "Deletar";
             // 
             // Principal
             // 
@@ -116,5 +149,9 @@
         private System.Windows.Forms.ToolStripMenuItem alterarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deletarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroFuncionáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inserirToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem alterarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem deletarToolStripMenuItem1;
     }
 }
