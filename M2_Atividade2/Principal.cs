@@ -16,5 +16,13 @@ namespace M2_Atividade2
         {
             InitializeComponent();
         }
+
+        private void inserirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form1 cadastroFuncionario = new Form1(); //Instância do objeto editor - Form2
+            cadastroFuncionario.MdiParent = this;    //Define o pai do filho, editor(filho) e pai(Form1)
+            cadastroFuncionario.Text = "Cadastro de Funcionário";
+            cadastroFuncionario.Show();
+        }
     }
 }
